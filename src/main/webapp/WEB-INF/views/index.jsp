@@ -12,7 +12,7 @@
 	}
 	
 	function openFacebook(){  
-	    window.open("https://www.facebook.com/v2.8/dialog/oauth?client_id=1227350160653331&redirect_uri=http://localhost:12219/makeit/FacebookLogin&response_type=code", "페이스북 로그인","width=200, height=400, toolbar=no, menubar=no, scrollbars=no, resizable=yes" );  
+	    window.open("https://www.facebook.com/v2.8/dialog/oauth?client_id=1227350160653331&redirect_uri=http://localhost:12219/makeit/FacebookLogin&response_type=code", "페이스북 로그인","width=800, height=800, toolbar=no, menubar=no, scrollbars=no, resizable=yes" );  
 	}
 </script>
 
