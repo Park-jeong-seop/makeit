@@ -8,7 +8,7 @@
 
 <script language="javascript" type="text/javascript">
 	function openKakao(){  
-	    window.open("https://kauth.kakao.com/oauth/authorize?client_id=7e0540b264fec8a954659770843a3067&redirect_uri=http://localhost:12219/makeit/KakaoLogin&response_type=code", "카카오 로그인","width=200, height=400, toolbar=no, menubar=no, scrollbars=no, resizable=yes" );  
+	    window.open("https://kauth.kakao.com/oauth/authorize?client_id=7e0540b264fec8a954659770843a3067&redirect_uri=http://localhost:12219/makeit/KakaoLogin&response_type=code", "카카오 로그인","width=450, height=600, toolbar=no, menubar=no, scrollbars=no, resizable=yes" );  
 	}
 	
 	function openFacebook(){  
