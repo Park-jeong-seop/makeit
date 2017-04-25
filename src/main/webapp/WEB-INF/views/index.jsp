@@ -19,16 +19,18 @@
 </head>
 <body>
 <div id="wrap">
-	<div class="main_container">
-		<div class="slogun">
-			<dl>
-				<dd class="logo_name">make it</dd>
-				<dd class="logo_help">같이 만드는 가치</dd>
-			</dl>
-		</div>
-		<div class="btn_list">
-			<a href="" onclick="openFacebook()"><p class="btn_facebook"><b>페이스북으로 시작하기</b></p></a>
-			<a href="" onclick="openKakao()"><p class="btn_kakao"><b>카카오톡으로 시작하기</b></p></a>
+	<div class="main_wrap">
+		<div class="main_container">
+			<div class="slogun">
+				<dl>
+					<dd class="logo_name">make it</dd>
+					<dd class="logo_help">같이 만드는 가치</dd>
+				</dl>
+			</div>
+			<div class="btn_list">
+				<a href="" onclick="openFacebook()"><p class="btn_facebook"><b>페이스북으로 시작하기</b></p></a>
+				<a href="" onclick="openKakao()"><p class="btn_kakao"><b>카카오톡으로 시작하기</b></p></a>
+			</div>
 		</div>
 	</div>
 	
@@ -36,7 +38,7 @@
 		<div class="main_bottom_contatiner">
 			<ul>
 				<li>
-					<a href="/makeit/" ><p class="main_bottom_tag1"><b>ABOUT MAKE IT</b></p></a>
+					<a href="additionalInformation" ><p class="main_bottom_tag1"><b>ABOUT MAKE IT</b></p></a>
 				</li>
 				<li>
 					<a href="/makeit/"><p class="main_bottom_tag2"><b>이용약관</b></p></a>

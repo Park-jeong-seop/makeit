@@ -156,6 +156,12 @@ public class HomeController {
 	    
 	    return returnNode;
 	}
+	
+	@RequestMapping(value = "/additionalInformation", method = RequestMethod.GET, produces="application/json;charset=UTF-8")
+	public String login01()
+	{
+		return "additionalInformation";
+	}
 
 	
 }
