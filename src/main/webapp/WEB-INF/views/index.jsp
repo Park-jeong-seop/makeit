@@ -29,7 +29,8 @@
 			</div>
 			<div class="btn_list">
 				<a href="" onclick="openFacebook()"><p class="btn_facebook"><b>페이스북으로 시작하기</b></p></a>
-				<a href="" onclick="openKakao()"><p class="btn_kakao"><b>카카오톡으로 시작하기</b></p></a>
+				<!--  <a href="" onclick="openKakao()"><p class="btn_kakao"><b>카카오톡으로 시작하기</b></p></a>-->
+				<a href="https://kauth.kakao.com/oauth/authorize?client_id=7e0540b264fec8a954659770843a3067&redirect_uri=http://localhost:12219/makeit/additionalInformation&response_type=code" ><p class="btn_kakao"><b>카카오톡으로 시작하기</b></p></a>
 			</div>
 		</div>
 	</div>

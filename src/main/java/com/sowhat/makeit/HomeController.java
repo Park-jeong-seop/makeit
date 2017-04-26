@@ -59,14 +59,14 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping(value = "/KakaoLogin", method = RequestMethod.GET, produces="application/json;charset=UTF-8")
+	@RequestMapping(value = "/additionalInformation", method = RequestMethod.GET, produces="application/json;charset=UTF-8")
 	public String KakaoLogin(@RequestParam("code") String code , HttpServletRequest request, HttpServletResponse httpservlet)
 	{
 		System.out.println("code : "+code);
 		
 		JsonNode jsonToken = getAccessToken_Kakao(code);
 		System.out.println("JSON 반환 : " + jsonToken.get("access_token"));
-		return "KakaoLogin";
+		return "additionalInformation";
 	}
 	
 	public static JsonNode getAccessToken_Kakao(String code){ 
@@ -75,7 +75,7 @@ public class HomeController {
 	    final List<NameValuePair> postParams = new ArrayList<NameValuePair>();
 	    postParams.add(new BasicNameValuePair("grant_type", "authorization_code"));
 	    postParams.add(new BasicNameValuePair("client_id", "7e0540b264fec8a954659770843a3067"));    // REST API KEY
-	    postParams.add(new BasicNameValuePair("redirect_uri", "http://localhost:12219/makeit/KakaoLogin"));    // 리다이렉트 URI
+	    postParams.add(new BasicNameValuePair("redirect_uri", "http://localhost:12219/makeit/additionalInformation"));    // 리다이렉트 URI
 	    postParams.add(new BasicNameValuePair("code", code));    // 로그인 과정중 얻은 code 값
 
 	    final HttpClient client = HttpClientBuilder.create().build();
@@ -156,12 +156,4 @@ public class HomeController {
 	    
 	    return returnNode;
 	}
-	
-	@RequestMapping(value = "/additionalInformation", method = RequestMethod.GET, produces="application/json;charset=UTF-8")
-	public String login01()
-	{
-		return "additionalInformation";
-	}
-
-	
 }
