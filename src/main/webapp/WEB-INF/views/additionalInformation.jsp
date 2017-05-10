@@ -31,31 +31,31 @@
 					<th><label for="user_birth" class="inputText">생년월일</label></th>
 					<td>
 						<select id="user_birth" name="user_birth" class="inputText_year">
+							<option selected="selected" disabled="disabled" >선택</option>
 							<%
 								String toyear = new java.text.SimpleDateFormat("yyyy").format(new java.util.Date());
 								for (int i=Integer.parseInt(toyear);  i>1960 ; i--) {
 							%>		
 							<option value="<%= i %>"><%= i %>년</option>
 							<%} %>
-							<option selected="selected" disabled="disabled" >선택</option>
 						</select>
 						년
 						<select id="user_birth" name="user_birth" class="inputText_month_date">
+							<option value="0"  selected="selected" disabled="disabled">선택</option>
 							<%
 								for (int i=1;  i<=12 ; i++) {
 							%>		
 							<option value="<%= i %>"><%= i %>월</option>
 							<%} %>
-							<option value="0"  selected="selected" disabled="disabled">선택</option>
 						</select>
 						월
 						<select id="user_birth" name="user_birth" class="inputText_month_date">
+							<option value="0"  selected="selected" disabled="disabled">선택</option>
 							<%
 								for (int i=1;  i<=31 ; i++) {
 							%>		
 							<option value="<%= i %>"><%= i %>일</option>
 							<%} %>
-							<option value="0"  selected="selected" disabled="disabled">선택</option>
 						</select>
 						일
 					</td>
@@ -70,18 +70,44 @@
 				<tr>
 					<th><label for="user_field" class="inputText">관심 분야</label></th>
 					<td>
-						<select id="user_field" name="userfield" class="inputText_field">
-							<option>선택1</option>
-							<option>선택2</option>
-							<option>선택3</option>
-							<option>선택4</option>
-							<option>선택5</option>
-							<option>선택6</option>
-							<option>선택7</option>
-							<option>선택8</option>
-							<option>선택9</option>
-							<option>선택10</option>
+						<select id="user_field1" name="userfield1" class="inputText_field">
 							<option selected="selected" disabled="disabled" >선택</option>
+							<option>기획/아이디어</option>
+							<option>디자인</option>
+							<option>개발(소프트웨어)</option>
+							<option>광고/마케팅</option>
+							<option>사진/영상/UCC</option>
+							<option>취업/창업</option>
+							<option>경제/경영</option>
+							<option>문화/교육</option>
+							<option>예체능</option>
+							<option>외국어</option>
+						</select>
+						<select id="user_field2" name="userfield2" class="inputText_field">
+							<option selected="selected" disabled="disabled" >선택</option>
+							<option>기획/아이디어</option>
+							<option>디자인</option>
+							<option>개발(소프트웨어)</option>
+							<option>광고/마케팅</option>
+							<option>사진/영상/UCC</option>
+							<option>취업/창업</option>
+							<option>경제/경영</option>
+							<option>문화/교육</option>
+							<option>예체능</option>
+							<option>외국어</option>
+						</select>
+						<select id="user_field3" name="userfield3" class="inputText_field">
+							<option selected="selected" disabled="disabled" >선택</option>
+							<option>기획/아이디어</option>
+							<option>디자인</option>
+							<option>개발(소프트웨어)</option>
+							<option>광고/마케팅</option>
+							<option>사진/영상/UCC</option>
+							<option>취업/창업</option>
+							<option>경제/경영</option>
+							<option>문화/교육</option>
+							<option>예체능</option>
+							<option>외국어</option>
 						</select>
 					</td>
 				</tr>	
@@ -96,7 +122,7 @@
 					</td>
 				</tr>
 			</table>
-			<a href="" ><p class="start_btn">시작하기</p></a>
+			<a href="main" ><p class="start_btn">시작하기</p></a>
 		</div>
 	</div>
 </div>
