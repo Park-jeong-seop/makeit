@@ -16,7 +16,7 @@
 					<p class="main_top_logo"><b>Make It</b></p>
 				</li>
 				<li class="main_top_setting">
-						<a href=""><div class="main_top_alarm">aasdasdad</div></a>
+						<a href=""><div class="main_top_alarm"></div></a>
 				</li>
 			</ul>
 		</div>
