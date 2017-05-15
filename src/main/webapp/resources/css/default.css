@@ -117,7 +117,7 @@ h1 { float:left; margin-top:17px; margin-left:442px;}
 .main_top_contatiner{width:670px; line-height: 60px; vertical-align:middle; margin:0 auto;}
 .main_top_logo{width:100px; font-size: 24px; color: #fff; white-space: nowrap; font-family: roboto-Thin;}
 .main_top_setting{width:200px; line-height: 60px; vertical-align:middle; margin:0 auto; float: right;}	
-.main_top_alarm{width:50px; height:30px; background-image:url(../images/top_alarm.gif) 0px 0px no-repeat;}
+.main_top_alarm{width:50px; height: 30px; background:url(../images/top_alarm.gif) 0px 0px no-repeat;}
 
 
 
