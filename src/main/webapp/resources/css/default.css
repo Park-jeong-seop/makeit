@@ -25,7 +25,7 @@ button *{position:relative}
 button img {left:-3px;*left:auto;}
 textarea {overflow:auto;}
 table {table-layout:fixed; overflow:hidden;}
-html:first-child select {height:20px; padding-right:6px;}
+/* html:first-child select {height:20px; padding-right:6px;} */
 option {padding-right:6px;}
 .reset {clear:both;}
 
@@ -61,7 +61,7 @@ option {padding-right:6px;}
 .btn_facebook { width:171px; height:37px; background:url(../images/btnBase_fb_330x56.gif) 0px 0px no-repeat; font-size:13px; color:#fff; letter-spacing:-1px; margin-top:20px; margin-bottom:12px; padding:14px 0px 0px 75px;}
 .btn_kakao {width:171px; height:37px; background:url(../images/btnBase_ka_330x56.gif) 0px 0px no-repeat; font-size:13px; color:#381e1f; letter-spacing:-1px; margin-bottom:12px; padding:14px 0px 0px 75px;}
 
-.main_bottom{ position:fixed; height: 60px; width:100%; bottom: 0px; background-color: #fff;}
+.main_bottom{ position:fixed; height: 60px; width:100%; bottom: 0px; background-color: #fff; }
 .main_bottom_contatiner{width:670px; height: 60px; margin:0 auto;}
 .main_bottom_tag1{ width:100px; height:14px; margin-left: 77px; margin-top: 23px; margin-bottom: 23px; font-size: 14px; color: #2598f3; white-space: nowrap;}
 .main_bottom_tag2{ width:70px; height:14px; margin-left: 65px; margin-top: 23px; margin-bottom: 23px; font-size: 14px; color: #666; white-space: nowrap;}
@@ -113,12 +113,33 @@ h1 { float:left; margin-top:17px; margin-left:442px;}
 .start_btn{ width:120px; height:28px; font-size:16px; font-family:nanum-bold-regular;
  background: #1e88e5; color:#fff; letter-spacing:-1px; padding-top: 7px; margin: 0 auto; border-radius: 30em;}
 
-.main_top{position:fixed;height: 60px; width: 100%; top: 0px; background-color: #1e88e5;}
-.main_top_contatiner{width:670px; line-height: 60px; vertical-align:middle; margin:0 auto;}
+.main_top{position:fixed; height: 60px; width: 100%; top: 0px; background-color: #1e88e5;}
+.main_top_container{width:1000px; height:60px; line-height: 60px; vertical-align:middle; margin:0 auto;}
 .main_top_logo{width:100px; font-size: 24px; color: #fff; white-space: nowrap; font-family: roboto-Thin;}
-.main_top_setting{width:200px; line-height: 60px; vertical-align:middle; margin:0 auto; float: right;}	
-.main_top_alarm{width:50px; height: 30px; background:url(../images/top_alarm.gif) 0px 0px no-repeat;}
+.main_top_setting{ height:60px; line-height: 60px; vertical-align:middle; float: right;}	
+.main_top_alarm{width:30px; height:30px; margin-top:15px; background:url(../images/top_alarm.gif) 0px 0px no-repeat;}
+.main_top_Name{margin-left:10px; font-size:14px; color: #fff; font-family:nanum-regular;}
+.main_top_bar{height:60px; margin-top:21px; margin-left:14px; background:url(../images/top_line.gif) 0px 0px no-repeat;}
+.main_top_myPage{margin-left:14px; font-size:14px; color: #fff; font-family:nanum-regular;}
 
+.main_middle_container{width:1000px; margin:0 auto; margin-bottom: 100px;}
+.main_advertisement{height: 350px;}
 
+.main_manue{display: table;}
+.manue_clicked{width: 333px; height: 50px; background-color: #1e88e5; color: #fff; font-size:18px; display:table-cell; vertical-align: middle; text-align: center; border: 0; outline: 0;}
+.manue_unclicked{width: 331px; height: 50px; background-color: #fff; color: #333; font-size:18px; display:table-cell; vertical-align: middle; text-align: center; border: 1px solid; border-color: #d0d0d0; outline: 0;}
+.manue_search{width:700px; height:40px; line-height: 60px; vertical-align:middle; float: right; margin-top: 20px;}
+.attention_field{width:150px; height:40px; text-align:center; font-size: 14px; font-family:nanum-bold-regular; color:#1e88e5; border-color: #d0d0d0; }
+.sort_order{width:150px; height:40px; text-align:center; font-size: 14px; font-family:nanum-bold-regular; color:#1e88e5; border-color: #d0d0d0; }
+.search{width:390px; height:40px; font-size: 14px; font-family:nanum-bold-regular; font-color:#666; background:url(../images/search_icon.gif) 358px 7px no-repeat; border: 1px solid; border-color: #d0d0d0; outline: 0;}
+.main_bottom_line {height: 60px; width:100%; border-top: 1px solid; border-color: #d0d0d0; }
+
+.main_list{ margin-top: 50px;}
+.list_td1{border: 1px solid;}
+.td1_img{width:300px; height:420px; background:url(../images/poster_01.jpg) 0px 0px no-repeat;}
+.td1_txt{width:300px; height:80px; border: 1px solid;}
+.td1_name{text-align:center; font-size:18px; font-family:nanum-bold-regular; font-color:#222; margin-top:10px;}
+.td1_period{text-align:center; font-size:14px; font-family:nanum-bold-regular; font-color:#666; margin-top:10px;}
+.td1_recruit_count{width: 300px; height:34px; font-size:14px; font-family:nanum-bold-regular; color:#fff; background-color:#1e88e5; display:table-cell; vertical-align: middle; text-align: center;}
 
 
