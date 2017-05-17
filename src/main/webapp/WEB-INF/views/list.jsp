@@ -27,7 +27,7 @@
 
 </head>
 <body>
-	<div id="list_td1">
+	<div class="list_td1">
     	<div class="td1_img">&nbsp;</div>
     	<div class="td1_txt">
 	    	<div class="td1_name">

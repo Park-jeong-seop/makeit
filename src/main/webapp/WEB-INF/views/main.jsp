@@ -50,6 +50,7 @@
 			<div class="main_list">
 				<jsp:include page="list.jsp"></jsp:include>
 			</div>
+			
 	</div>
 	
 	<div class="main_bottom">
@@ -72,6 +73,8 @@
 			</div>
 		</div>
 	</div>
+	
+	
 	
 </div>
 </body>
