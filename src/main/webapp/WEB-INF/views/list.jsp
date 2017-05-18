@@ -1,14 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="<c:url value="/resources/css/default.css" />" rel="stylesheet" type="text/css" />
 
 <script language="javascript" type="text/javascript">
 	window.onload = function add_item(){
-	    // pre_set ¿¡ ÀÖ´Â ³»¿ëÀ» ÀĞ¾î¿Í¼­ Ã³¸®..
+	    // pre_set ì— ìˆëŠ” ë‚´ìš©ì„ ì½ì–´ì™€ì„œ ì²˜ë¦¬..
 	    var div = document.createElement('div');
 	    div.innerHTML = document.getElementById('list_td1').innerHTML;
 	    document.getElementById('list_field').appendChild(div);
@@ -28,17 +28,47 @@
 </head>
 <body>
 	<div class="list_td1">
-    	<div class="td1_img">&nbsp;</div>
-    	<div class="td1_txt">
-	    	<div class="td1_name">
-	    		<%="" %>Ã·´Ü°í¼Óµµ·Î °æ°ü¼³°è °ø¸ğÀü
+    	<div class="td_img">&nbsp;</div>
+    	<div class="td_txt">
+	    	<div class="td_name">
+	    		<%="" %>ì²¨ë‹¨ê³ ì†ë„ë¡œ ê²½ê´€ì„¤ê³„ ê³µëª¨ì „
 	    	</div>
-	    	<div class="td1_period">
-	    		<%="" %>°ø¸ğÀü±â°£ : 2017-02-21 ~ 2017-04-17 
+	    	<div class="td_period">
+	    		<%="" %>ê³µëª¨ì „ê¸°ê°„ : 2017-02-21 ~ 2017-04-17 
 	    	</div>
     	</div>
-    	<div class="td1_recruit_count">
-    		ÇöÀç <%="8" %>ÆÀÀÌ ¸ğÁıÁßÀÔ´Ï´Ù.
+    	<div class="td_recruit_count">
+    		í˜„ì¬ <%="8" %>íŒ€ì´ ëª¨ì§‘ì¤‘ì…ë‹ˆë‹¤.
+    	</div>
+	</div>
+	
+	<div class="list_td2">
+    	<div class="td_img">&nbsp;</div>
+    	<div class="td_txt">
+	    	<div class="td_name">
+	    		<%="" %>ì²¨ë‹¨ê³ ì†ë„ë¡œ ê²½ê´€ì„¤ê³„ ê³µëª¨ì „
+	    	</div>
+	    	<div class="td_period">
+	    		<%="" %>ê³µëª¨ì „ê¸°ê°„ : 2017-02-21 ~ 2017-04-17 
+	    	</div>
+    	</div>
+    	<div class="td_recruit_count">
+    		í˜„ì¬ <%="8" %>íŒ€ì´ ëª¨ì§‘ì¤‘ì…ë‹ˆë‹¤.
+    	</div>
+	</div>
+	
+	<div class="list_td3">
+    	<div class="td_img">&nbsp;</div>
+    	<div class="td_txt">
+	    	<div class="td_name">
+	    		<%="" %>ì²¨ë‹¨ê³ ì†ë„ë¡œ ê²½ê´€ì„¤ê³„ ê³µëª¨ì „
+	    	</div>
+	    	<div class="td_period">
+	    		<%="" %>ê³µëª¨ì „ê¸°ê°„ : 2017-02-21 ~ 2017-04-17 
+	    	</div>
+    	</div>
+    	<div class="td_recruit_count">
+    		í˜„ì¬ <%="8" %>íŒ€ì´ ëª¨ì§‘ì¤‘ì…ë‹ˆë‹¤.
     	</div>
 	</div>
 

@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="<c:url value="/resources/css/default.css" />" rel="stylesheet" type="text/css" />
 
 <script language="javascript" type="text/javascript">
 	function competition_click(){
@@ -27,32 +27,32 @@
 <body>
 	<div class="manue_tab">
 		<ul>
-			<li><input type="button"  onclick="competition_click()" id="competition" class="manue_clicked" value="°ø¸ðÀü"></li>
-			<li><input type="button"  onclick="circles_click()" id="circles" class="manue_unclicked" value="µ¿¾Æ¸®"></li>
-			<li><input type="button"  onclick="startup_click()" id="startup" class="manue_unclicked" value="½ºÅ¸Æ®¾÷"></li>
+			<li><input type="button"  onclick="competition_click()" id="competition" class="manue_clicked" value="ê³µëª¨ì „"></li>
+			<li><input type="button"  onclick="circles_click()" id="circles" class="manue_unclicked" value="ë™ì•„ë¦¬"></li>
+			<li><input type="button"  onclick="startup_click()" id="startup" class="manue_unclicked" value="ìŠ¤íƒ€íŠ¸ì—…"></li>
 		</ul>
 	</div>
 	<div class="manue_search">
 		<select id="attention_field" name="attention_field" class="attention_field">
-			<option selected="selected">ÀüÃ¼ºÐ¾ß</option>
-			<option>±âÈ¹/¾ÆÀÌµð¾î</option>
-			<option>µðÀÚÀÎ</option>
-			<option>°³¹ß(¼ÒÇÁÆ®¿þ¾î)</option>
-			<option>±¤°í/¸¶ÄÉÆÃ</option>
-			<option>»çÁø/¿µ»ó/UCC</option>
-			<option>Ãë¾÷/Ã¢¾÷</option>
-			<option>°æÁ¦/°æ¿µ</option>
-			<option>¹®È­/±³À°</option>
-			<option>¿¹Ã¼´É</option>
-			<option>¿Ü±¹¾î</option>
+			<option selected="selected">ì „ì²´ë¶„ì•¼</option>
+			<option>ê¸°íš/ì•„ì´ë””ì–´</option>
+			<option>ë””ìžì¸</option>
+			<option>ê°œë°œ(ì†Œí”„íŠ¸ì›¨ì–´)</option>
+			<option>ê´‘ê³ /ë§ˆì¼€íŒ…</option>
+			<option>ì‚¬ì§„/ì˜ìƒ/UCC</option>
+			<option>ì·¨ì—…/ì°½ì—…</option>
+			<option>ê²½ì œ/ê²½ì˜</option>
+			<option>ë¬¸í™”/êµìœ¡</option>
+			<option>ì˜ˆì²´ëŠ¥</option>
+			<option>ì™¸êµ­ì–´</option>
 		</select>
 		
 		<select id="sort_order" name="sort_order" class="sort_order">
-			<option selected="selected">ÃÖ½Å¼ø</option>
-			<option>ÃßÃµ¼ø</option>
+			<option selected="selected">ìµœì‹ ìˆœ</option>
+			<option>ì¶”ì²œìˆœ</option>
 		</select>
 		
-		<input type="text" value="&nbsp;°Ë»ö¾î¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä." class="search">
+		<input type="text" value="&nbsp;ê²€ìƒ‰ì–´ë¥¼ ìž…ë ¥í•´ ì£¼ì„¸ìš”." class="search">
 	</div>
 </body>
 </html>

@@ -38,6 +38,10 @@
 		</div>
 	</div>
 	
+	<div class="main_sidebar">
+		<jsp:include page="sidebar.jsp"></jsp:include>
+	</div>
+	
 	<div class="main_middle_container">
 			<div class="main_advertisement">
 				<jsp:include page="advertisement.jsp"></jsp:include>
@@ -50,7 +54,6 @@
 			<div class="main_list">
 				<jsp:include page="list.jsp"></jsp:include>
 			</div>
-			
 	</div>
 	
 	<div class="main_bottom">
@@ -73,9 +76,6 @@
 			</div>
 		</div>
 	</div>
-	
-	
-	
 </div>
 </body>
 </html>
