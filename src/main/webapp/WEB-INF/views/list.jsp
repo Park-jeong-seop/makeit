@@ -38,7 +38,7 @@
 	    	</div>
     	</div>
     	<div class="td_recruit_count">
-    		현재 <%="8" %>팀이 모집중입니다.
+    		현재 <p><%="8" %></p>팀이 모집중입니다.
     	</div>
 	</div>
 	
@@ -53,7 +53,7 @@
 	    	</div>
     	</div>
     	<div class="td_recruit_count">
-    		현재 <%="8" %>팀이 모집중입니다.
+    		현재 <p><%="8" %></p>팀이 모집중입니다.
     	</div>
 	</div>
 	
@@ -68,7 +68,7 @@
 	    	</div>
     	</div>
     	<div class="td_recruit_count">
-    		현재 <%="8" %>팀이 모집중입니다.
+    		현재 <p><%="8" %></p>팀이 모집중입니다.
     	</div>
 	</div>
 
