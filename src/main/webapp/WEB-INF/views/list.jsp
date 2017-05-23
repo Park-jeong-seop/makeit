@@ -27,20 +27,22 @@
 
 </head>
 <body>
-	<div class="list_td1">
-    	<div class="td_img">&nbsp;</div>
-    	<div class="td_txt">
-	    	<div class="td_name">
-	    		<%="" %>첨단고속도로 경관설계 공모전
+	<a href="/makeit/competitionView">
+		<div class="list_td1">
+	    	<div class="td_img">&nbsp;</div>
+	    	<div class="td_txt">
+		    	<div class="td_name">
+		    		<%="" %>첨단고속도로 경관설계 공모전
+		    	</div>
+		    	<div class="td_period">
+		    		<%="" %>공모전기간 : 2017-02-21 ~ 2017-04-17 
+		    	</div>
 	    	</div>
-	    	<div class="td_period">
-	    		<%="" %>공모전기간 : 2017-02-21 ~ 2017-04-17 
+	    	<div class="td_recruit_count">
+	    		현재 <p style="display: inline; font-size: 18px; color: #f0ff00;"><%="8" %></p>팀이 모집중입니다.
 	    	</div>
-    	</div>
-    	<div class="td_recruit_count">
-    		현재 <p><%="8" %></p>팀이 모집중입니다.
-    	</div>
-	</div>
+		</div>
+	</a>
 	
 	<div class="list_td2">
     	<div class="td_img">&nbsp;</div>
@@ -53,7 +55,7 @@
 	    	</div>
     	</div>
     	<div class="td_recruit_count">
-    		현재 <p><%="8" %></p>팀이 모집중입니다.
+    		현재 <p style="display: inline; font-size: 18px; color: #f0ff00;"><%="8" %></p>팀이 모집중입니다.
     	</div>
 	</div>
 	
@@ -68,7 +70,7 @@
 	    	</div>
     	</div>
     	<div class="td_recruit_count">
-    		현재 <p><%="8" %></p>팀이 모집중입니다.
+    		현재 <p style="display: inline; font-size: 18px; color: #f0ff00;"><%="8" %></p>팀이 모집중입니다.
     	</div>
 	</div>
 

@@ -162,4 +162,10 @@ public class HomeController {
 	{
 		return "main";
 	}
+	
+	@RequestMapping(value = "/competitionView", method = RequestMethod.GET, produces="application/json;charset=UTF-8")
+	public String competitionView()
+	{
+		return "competitionView";
+	}
 }
