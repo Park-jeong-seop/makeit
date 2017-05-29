@@ -53,13 +53,13 @@ option {padding-right:6px;}
 
 /*로그인 화면 CSS 시작*/
 .login_wrap{margin:0; padding:0; width:100%; height:100%; background:url(../images/Bg_2560x1350.jpg) 0px 0px no-repeat; background-attachment: fixed; background-repeat: no-repeat; background-position: center;}
-.login_container { width:670px; height:905px; margin:0 auto;}
+.login_container { width:39.0625%; height:93.75%px; margin:0 auto;}
 
 .login_slogun { padding-top:340px; text-align:center;}
 .login_logo_name{ font-size: 67px; color: #fff; font-family: roboto-Medium;}
 .login_logo_help { font-size: 16px; color:#fff; margin:0px 0px 0px 0px;}
 
-.login_btn_list { margin-left:215px; width:330px; height:192px;}
+.login_btn_list { width:33%; height:192px; margin-left: 28.5%;}
 .btn_facebook { width:171px; height:37px; background:url(../images/btnBase_fb_330x56.gif) 0px 0px no-repeat; font-size:13px; color:#fff; letter-spacing:-1px; margin-top:20px; margin-bottom:12px; padding:14px 0px 0px 75px;}
 .btn_kakao {width:171px; height:37px; background:url(../images/btnBase_ka_330x56.gif) 0px 0px no-repeat; font-size:13px; color:#381e1f; letter-spacing:-1px; margin-bottom:12px; padding:14px 0px 0px 75px;}
 /*로그인 화면 CSS 끝*/
