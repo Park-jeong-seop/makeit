@@ -20,7 +20,7 @@
 <body>
 <div id="wrap">
 	<div class="login_wrap">
-		<div class="login_container">
+		<div class="login_container login_container_type">
 			<div class="login_slogun">
 				<dl><!-- 정의 목록 -->
 					<dd class="login_logo_name">make it</dd><!-- 정의 설명 -->

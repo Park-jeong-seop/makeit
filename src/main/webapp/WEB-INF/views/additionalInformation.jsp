@@ -70,6 +70,25 @@
 				<tr>
 					<th><label for="user_field" class="inputText">관심 분야</label></th>
 					<td>
+						<ul>
+							<li><input type="button"  onclick="planning_idea_click()" id="planning_idea" class="field_unclicked" value="기획/아이디어"></li>
+							<li><input type="button"  onclick="design_marketing_click()" id="design" class="field_unclicked" value="디자인"></li>
+							<li><input type="button"  onclick="develope_marketing_click()" id="develope" class="field_unclicked" value="개발(소프트웨어)"></li>
+							<li><input type="button"  onclick="ad_marketing_click()" id="ad_marketing" class="field_unclicked" value="광고/마케팅"></li>
+						</ul>
+						<ul>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="기획/아이디어"></li>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="디자인"></li>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="개발(소프트웨어)"></li>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="광고/마케팅"></li>
+						</ul>
+						<ul>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="기획/아이디어"></li>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="디자인"></li>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="개발(소프트웨어)"></li>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="광고/마케팅"></li>
+						</ul>
+						<!-- 
 						<select id="user_field1" name="userfield1" class="inputText_field">
 							<option selected="selected" disabled="disabled" >선택</option>
 							<option>기획/아이디어</option>
@@ -109,6 +128,7 @@
 							<option>예체능</option>
 							<option>외국어</option>
 						</select>
+						 -->
 					</td>
 				</tr>	
 				<tr>
