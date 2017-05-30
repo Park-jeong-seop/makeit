@@ -68,67 +68,32 @@
 					</td>
 				</tr>	
 				<tr>
-					<th><label for="user_field" class="inputText">관심 분야</label></th>
+					<th rowspan="3"><label for="user_field" class="inputText">관심 분야</label></th>
 					<td>
 						<ul>
 							<li><input type="button"  onclick="planning_idea_click()" id="planning_idea" class="field_unclicked" value="기획/아이디어"></li>
 							<li><input type="button"  onclick="design_marketing_click()" id="design" class="field_unclicked" value="디자인"></li>
 							<li><input type="button"  onclick="develope_marketing_click()" id="develope" class="field_unclicked" value="개발(소프트웨어)"></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="사진/영상/UCC"></li>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="취업/창업"></li>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="경제/경영"></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
 							<li><input type="button"  onclick="ad_marketing_click()" id="ad_marketing" class="field_unclicked" value="광고/마케팅"></li>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="문화/교육"></li>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="예체능"></li>
+							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="외국어"></li>
 						</ul>
-						<ul>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="기획/아이디어"></li>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="디자인"></li>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="개발(소프트웨어)"></li>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="광고/마케팅"></li>
-						</ul>
-						<ul>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="기획/아이디어"></li>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="디자인"></li>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="개발(소프트웨어)"></li>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="광고/마케팅"></li>
-						</ul>
-						<!-- 
-						<select id="user_field1" name="userfield1" class="inputText_field">
-							<option selected="selected" disabled="disabled" >선택</option>
-							<option>기획/아이디어</option>
-							<option>디자인</option>
-							<option>개발(소프트웨어)</option>
-							<option>광고/마케팅</option>
-							<option>사진/영상/UCC</option>
-							<option>취업/창업</option>
-							<option>경제/경영</option>
-							<option>문화/교육</option>
-							<option>예체능</option>
-							<option>외국어</option>
-						</select>
-						<select id="user_field2" name="userfield2" class="inputText_field">
-							<option selected="selected" disabled="disabled" >선택</option>
-							<option>기획/아이디어</option>
-							<option>디자인</option>
-							<option>개발(소프트웨어)</option>
-							<option>광고/마케팅</option>
-							<option>사진/영상/UCC</option>
-							<option>취업/창업</option>
-							<option>경제/경영</option>
-							<option>문화/교육</option>
-							<option>예체능</option>
-							<option>외국어</option>
-						</select>
-						<select id="user_field3" name="userfield3" class="inputText_field">
-							<option selected="selected" disabled="disabled" >선택</option>
-							<option>기획/아이디어</option>
-							<option>디자인</option>
-							<option>개발(소프트웨어)</option>
-							<option>광고/마케팅</option>
-							<option>사진/영상/UCC</option>
-							<option>취업/창업</option>
-							<option>경제/경영</option>
-							<option>문화/교육</option>
-							<option>예체능</option>
-							<option>외국어</option>
-						</select>
-						 -->
 					</td>
 				</tr>	
 				<tr>
