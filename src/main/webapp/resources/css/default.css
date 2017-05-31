@@ -79,12 +79,13 @@ option {padding-right:6px;}
 .addInfo_top_contatiner{display:table-cell; width:670px; height: 60px; text-align:center; vertical-align:middle;}
 .addInfo_top_txt{margin:0 auto; font-size: 24px; color: #fff; white-space: nowrap; font-family: roboto-Thin;}
 
-.addInfo_wrap{position:absolute; display:table; width: 100%; margin-top: 5.555%;}
+.addInfo_wrap{position:absolute; display:table; width: 100%; margin-top: 4.85%;}
 .addInfo_container{width:670px; display:table-cell; text-align:center; vertical-align:middle;}
-.addInfo_name{ margin-top: 5.555%; font-size: 24px; font-family:nanum-bold-regular; color: #333; }
+.addInfo_name{ margin-top: 4.85%; font-size: 24px; font-family:nanum-bold-regular; color: #333; }
 .addInfo_help { font-size: 16px; color:#666; font-family:nanum-regular; margin:10px 0px 0px 0px;}
+
+.join_table {margin: 0 auto; margin-top: 4.629%; margin-bottom:2.777%; border: 1px solid #ddd;}
 /**/
-.join_table {margin: 0 auto; margin-top: 4.629%; margin-bottom:30px; border: 1px solid #ddd;}
 .join_table th {text-align:left; height:45px; width: 170px; background-color:#f2f2f2;}
 .join_table th .inputText{padding: 0px 0px 0px 30px;  font-size: 14px; font-family:nanum-bold-regular; color:#333;}
 .join_table th .inputText_last{text-align:center; font-size: 14px; font-family:nanum-bold-regular; color:#333;}
