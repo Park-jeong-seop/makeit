@@ -63,8 +63,10 @@
 				<tr>
 					<th><label for="user_gender" class="inputText">성별</label></th>
 					<td>
-						<input type="radio" id="user_gender" name="user_gender" value="남자"  class="radio_gender1">남자
-						<input type="radio" id="user_gender" name="user_gender" value="여자" class="radio_gender2">여자
+						<input type="radio" id="user_gender" name="user_gender" value="남자"  class="radio_gender_man">
+							<label class="radio_gender_text">남자</label>
+						<input type="radio" id="user_gender" name="user_gender" value="여자" class="radio_gender2">
+							<label for="radio_gender1">여자</label>
 					</td>
 				</tr>	
 				<tr>
@@ -97,13 +99,13 @@
 					</td>
 				</tr>	
 				<tr>
-					<th colspan="2" style="text-align: center;"><label for="user_range" class="inputText_last">당신이 주로 사용할 기능을 선택해 주세요</label></th>
+					<th colspan="2" style="text-align: center;"><label for="user_range" class="inputText inputText_last">당신이 주로 사용할 기능을 선택해 주세요</label></th>
 				</tr>	
 				<tr>
 					<td colspan="2" >
-						<input type="radio" id="user_gender" name="user_gender" value="공모전"  class="radio_range1">공모전
-						<input type="radio" id="user_gender" name="user_gender" value="동아리" class="radio_range2">동아리
-						<input type="radio" id="user_gender" name="user_gender" value="스타트업" class="radio_range3">스타트업
+						<input type="radio" id="user_range" name="user_range" value="공모전"  class="radio_range1">공모전
+						<input type="radio" id="user_range" name="user_range" value="동아리" class="radio_range2">동아리
+						<input type="radio" id="user_range" name="user_range" value="스타트업" class="radio_range3">스타트업
 					</td>
 				</tr>
 			</table>
