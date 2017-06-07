@@ -64,9 +64,9 @@
 					<th><label for="user_gender" class="inputText">성별</label></th>
 					<td>
 						<input type="radio" id="user_gender" name="user_gender" value="남자"  class="radio_gender_man">
-							<label class="radio_gender_text">남자</label>
+							<p class="radio_gender_text">남자</p>
 						<input type="radio" id="user_gender" name="user_gender" value="여자" class="radio_gender2">
-							<label for="radio_gender1">여자</label>
+							<p class="radio_gender_text">여자</p>
 					</td>
 				</tr>	
 				<tr>
@@ -103,9 +103,12 @@
 				</tr>	
 				<tr>
 					<td colspan="2" >
-						<input type="radio" id="user_range" name="user_range" value="공모전"  class="radio_range1">공모전
-						<input type="radio" id="user_range" name="user_range" value="동아리" class="radio_range2">동아리
-						<input type="radio" id="user_range" name="user_range" value="스타트업" class="radio_range3">스타트업
+						<input type="radio" id="user_range" name="user_range" value="공모전"  class="radio_range1">
+							<p class="radio_range_text">공모전</p>
+						<input type="radio" id="user_range" name="user_range" value="동아리" class="radio_range2">
+							<p class="radio_range_text">동아리</p>
+						<input type="radio" id="user_range" name="user_range" value="스타트업" class="radio_range3">
+							<p class="radio_range_text radio_range_text_last">스타트업</p>
 					</td>
 				</tr>
 			</table>
