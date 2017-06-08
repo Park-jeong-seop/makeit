@@ -24,7 +24,7 @@
 				<tr>
 					<th><label for="user_name" class="inputText">이름</label></th>
 					<td>
-						<input type="text" id="user_name" name="user_name" value=""  class="inputText">
+						<input type="text" id="user_name" name="user_name" value=""  class="inputText_name">
 					</td>
 				</tr>
 				<tr>
@@ -65,36 +65,36 @@
 					<td>
 						<input type="radio" id="user_gender" name="user_gender" value="남자"  class="radio_gender_man">
 							<p class="radio_gender_text">남자</p>
-						<input type="radio" id="user_gender" name="user_gender" value="여자" class="radio_gender2">
+						<input type="radio" id="user_gender" name="user_gender" value="여자" class="radio_gender_woman">
 							<p class="radio_gender_text">여자</p>
 					</td>
 				</tr>	
 				<tr>
-					<th rowspan="3"><label for="user_field" class="inputText">관심 분야</label></th>
-					<td>
+					<th rowspan="3"><label for="user_field" class="inputText">관심 분야<p class="inputText_field">(최대 3개 선택가능)</p></label></th>
+					<td class="td_noline">
 						<ul>
-							<li><input type="button"  onclick="planning_idea_click()" id="planning_idea" class="field_unclicked" value="기획/아이디어"></li>
-							<li><input type="button"  onclick="design_marketing_click()" id="design" class="field_unclicked" value="디자인"></li>
-							<li><input type="button"  onclick="develope_marketing_click()" id="develope" class="field_unclicked" value="개발(소프트웨어)"></li>
+							<li><input type="button"  onclick="planning_idea_click()" id="planning_idea" class="field_unclicked" value="기획 / 아이디어"></li>
+							<li><input type="button"  onclick="design_click()" id="design" class="field_unclicked" value="디자인"></li>
+							<li><input type="button"  onclick="develope_sw_click()" id="develope" class="field_unclicked field_last" value="개발(소프트웨어)"></li>
 						</ul>
 					</td>
 				</tr>
 				<tr>
-					<td>
+					<td class="td_noline">
 						<ul>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="사진/영상/UCC"></li>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="취업/창업"></li>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="경제/경영"></li>
+							<li><input type="button"  onclick="ad_marketing_click()" id="ad_marketing" class="field_unclicked" value="광고 / 마케팅"></li>
+							<li><input type="button"  onclick="photo_video_ucc_click()" id="planning_marketing" class="field_unclicked" value="사진 / 영상 / UCC"></li>
+							<li><input type="button"  onclick="job_startup_click()" id="planning_marketing" class="field_unclicked field_last" value="취업 / 창업"></li>
 						</ul>
 					</td>
 				</tr>
 				<tr>
-					<td>
+					<td class="td_noline">
 						<ul>
-							<li><input type="button"  onclick="ad_marketing_click()" id="ad_marketing" class="field_unclicked" value="광고/마케팅"></li>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="문화/교육"></li>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="예체능"></li>
-							<li><input type="button"  onclick="planning_marketing_click()" id="planning_marketing" class="field_unclicked" value="외국어"></li>
+							<li><input type="button"  onclick="economy_operation_click()" id="planning_marketing" class="field_unclicked" value="경영 / 경제"></li>
+							<li><input type="button"  onclick="culture_education_click()" id="planning_marketing" class="field_unclicked" value="문화 / 교육"></li>
+							<li><input type="button"  onclick="art_physical_click()" id="planning_marketing" class="field_unclicked" value="예체능"></li>
+							<li><input type="button"  onclick="foreign_languages_click()" id="planning_marketing" class="field_unclicked field_last" value="외국어"></li>
 						</ul>
 					</td>
 				</tr>	
@@ -102,7 +102,7 @@
 					<th colspan="2" style="text-align: center;"><label for="user_range" class="inputText inputText_last">당신이 주로 사용할 기능을 선택해 주세요</label></th>
 				</tr>	
 				<tr>
-					<td colspan="2" >
+					<td colspan="2"  class="td_noline">
 						<input type="radio" id="user_range" name="user_range" value="공모전"  class="radio_range1">
 							<p class="radio_range_text">공모전</p>
 						<input type="radio" id="user_range" name="user_range" value="동아리" class="radio_range2">

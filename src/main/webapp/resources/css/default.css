@@ -85,22 +85,28 @@ option {padding-right:6px;}
 .addInfo_help { font-size: 16px; color:#666; font-family:nanum-regular; margin:10px 0px 0px 0px;}
 
 .join_table {margin: 0 auto; margin-top: 4.629%; margin-bottom:2.777%; border: 1px solid #ddd; }
+
 .join_table th {text-align:left; height:45px; width: 170px; background-color:#f2f2f2; }
-.join_table th .inputText{padding: 0px 0px 0px 30px;  font-size: 14px; font-family:nanum-bold-regular; color:#333; }
+.join_table th .inputText{padding: 0px 0px 0px 30px;  font-size: 16px; font-family:nanum-bold-regular; color:#333; }
 .join_table th .inputText_last{text-align:center; padding: 0; }
+.join_table th .inputText_field{padding: 5px 0px 0px 30px;  font-size: 14px; font-family:nanum-bold-regular; color:#1e88e5; }
+
 .join_table td {padding:5px; height:45px; border-bottom: 1px solid #ddd; }
-.join_table td .inputText{width: 518px; height:35px; font-size: 25px; font-family:nanum-regular;}
-.join_table td .inputText_year{width: 100px; height:35px; font-size: 14px; color:#666; font-family:nanum-regular;}
+.join_table .td_noline {border-bottom: 0px solid #fff; left:50%;}
+.join_table td .inputText_name{width: 400px;/*518px;*/ height:35px; font-size: 25px; font-family:nanum-regular; margin: 5px;}
+.join_table td .inputText_year{width: 100px; height:35px; font-size: 14px; color:#666; font-family:nanum-regular; margin-left: 5px;}
 .join_table td .inputText_month_date{width: 60px; height:35px; font-size: 14px; margin-left:30px; color:#666; font-family:nanum-regular;}
-.join_table td .inputText_field{width: 100px; height:35px; font-size: 14px; color:#666; font-family:nanum-regular;}
-.join_table td .radio_gender_man{width: 21px; height: 21px; float: left; }
-.join_table td .radio_gender2{width: 21px; height: 21px; margin-left: 20px; float: left; }
-.join_table td .radio_gender_text{width: 50px; height: 21px; top: 45%; margin-left: 5px; float: left; }
-.join_table td .radio_range1{width: 21px; height: 21px; float: left; margin: 0px 8px 0px 201px;}
+.join_table td .inputText_field{width: 100px; height:35px; font-size: 14px; color:#333; font-family:nanum-bold-regular;}
+.join_table td .radio_gender_man{width: 21px; height: 21px; float: left; margin-left: 5px; }
+.join_table td .radio_gender_woman{width: 21px; height: 21px; margin-left: 20px; float: left; }
+.join_table td .radio_gender_text{width: 50px; height: 21px; top: 40%; margin-left: 5px; float: left; }
+.join_table td .radio_range1{width: 21px; height: 21px; float: left; margin: 0px 0.8% 0px 13.802%;}
 .join_table td .radio_range2{width: 21px; height: 21px; float: left; margin: 0px 8px 0px 29px;}
 .join_table td .radio_range3{width: 21px; height: 21px; float: left; margin: 0px 8px 0px 30px;}
 .join_table td .radio_range_text{width: 50px; height: 21px; top: 45%; margin-left: 5px; float: left; }
 .join_table td .radio_range_text_last{width: 70px;}
+.join_table td .field_unclicked{width: ; height: 40px; padding: 10px 21px 10px 21px; margin-left: 10px; background: #f9f9f9;  border: solid 1px #e0e0e0; color:#666; font-family:nanum-regular;}
+.join_table td .field_last{margin-right: 10px; }
 /**/
 .start_btn{ width:120px; height:28px; font-size:16px; font-family:nanum-bold-regular;
  background: #1e88e5; color:#fff; letter-spacing:-1px; padding-top: 7px; margin: 0 auto; border-radius: 30em;}
