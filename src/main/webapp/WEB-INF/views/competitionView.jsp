@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="<c:url value="/resources/css/default.css" />" rel="stylesheet" type="text/css" />
@@ -41,8 +42,12 @@
 		<div class="main_sidebar">
 			<jsp:include page="sidebar.jsp"></jsp:include>
 		</div>
-	
-	
+		
+		<div class="main_bottom">
+			<jsp:include page="bottomMenue.jsp"></jsp:include>
+		</div>
+		
+		<!-- 
 		<div class="main_bottom">
 			<div class="main_bottom_line">
 				<div class="main_bottom_contatiner">
@@ -63,7 +68,7 @@
 				</div>
 			</div>
 		</div>
-		
+		 -->
 	</div>
 </body>
 </html>

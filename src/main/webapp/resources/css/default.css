@@ -100,7 +100,7 @@ option {padding-right:6px;}
 .join_table td .radio_gender_man{width: 21px; height: 21px; float: left; margin-left: 5px; }
 .join_table td .radio_gender_woman{width: 21px; height: 21px; margin-left: 20px; float: left; }
 .join_table td .radio_gender_text{width: 50px; height: 21px; top: 40%; margin-left: 5px; float: left; }
-.join_table td .radio_range1{width: 21px; height: 21px; float: left; margin: 0px 0.8% 0px 13.802%;}
+.join_table td .radio_range1{width: 21px; height: 21px; float: left; margin: 0px 0.8% 0px 147px;}
 .join_table td .radio_range2{width: 21px; height: 21px; float: left; margin: 0px 8px 0px 29px;}
 .join_table td .radio_range3{width: 21px; height: 21px; float: left; margin: 0px 8px 0px 30px;}
 .join_table td .radio_range_text{width: 50px; height: 21px; top: 45%; margin-left: 5px; float: left; }
@@ -151,7 +151,7 @@ h1 { float:left; margin-top:17px; margin-left:442px;}
 .manue_search{width:700px; height:40px; line-height: 60px; vertical-align:middle; float: right; margin-top: 20px;}
 .attention_field{width:150px; height:40px; text-align:center; font-size: 14px; font-family:nanum-bold-regular; color:#1e88e5; border-color: #d0d0d0; }
 .sort_order{width:150px; height:40px; text-align:center; font-size: 14px; font-family:nanum-bold-regular; color:#1e88e5; border-color: #d0d0d0; }
-.search{width:390px; height:40px; font-size: 14px; font-family:nanum-bold-regular; font-color:#666; background:url(../images/search_icon.gif) 358px 7px no-repeat; border: 1px solid; border-color: #d0d0d0; outline: 0;}
+.search{width:385px; height:40px; font-size: 14px; font-family:nanum-bold-regular; font-color:#666; background:url(../images/search_icon.gif) 358px 7px no-repeat; border: 1px solid; border-color: #d0d0d0; outline: 0;}
 .main_bottom_line {height: 60px; width:100%; border-top: 1px solid; border-color: #d0d0d0; }
 
 .main_list{ height:80%; margin: 40px 0px 0px 0px;}

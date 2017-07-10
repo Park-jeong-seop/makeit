@@ -121,7 +121,7 @@ public class HomeController {
 	public static JsonNode getAccessToken_Facebook(String code){ 
 	    final String RequestUrl = "https://graph.facebook.com/v2.8/oauth/access_token";
 
-	    final List<NameValuePair> postParams = new ArrayList<NameValuePair>();
+	    final List<NameValuePair> postParams = new ArrayList<NameValuePair>();	//Post 방식에서 사용
 	    postParams.add(new BasicNameValuePair("client_id", "1227350160653331"));
 	    postParams.add(new BasicNameValuePair("redirect_uri", "http://localhost:12219/makeit/FacebookLogin"));    // REST API KEY
 	    postParams.add(new BasicNameValuePair("client_secret", "7534e26b7b3c095610bd788ab419db93"));    // 리다이렉트 URI
