@@ -5,6 +5,8 @@
 <html lang="ko">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- 모바일 레이아웃으로 렌더링 -->
+<meta name=”viewport” content=”width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no” />
 <link href="<c:url value="/resources/css/default.css" />" rel="stylesheet" type="text/css" />
 
 
